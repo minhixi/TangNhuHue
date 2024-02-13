@@ -26,7 +26,7 @@ noButton.addEventListener("click", function () {
 
 function handleYesClick() {
   titleElement.innerHTML = "Yêu bé";
-  titleElement.innerHTML = "❤❤❤Tăng Như Huệ❤❤❤";
+  titleElement2.innerHTML = "❤Tăng Như Huệ❤";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
