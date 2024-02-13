@@ -1,6 +1,7 @@
 "use strict";
 
 const titleElement = document.querySelector(".title");
+const titleElement2 = document.querySelector(".title2");
 const buttonsContainer = document.querySelector(".buttons");
 const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
@@ -24,7 +25,8 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "Yêu bé";
+  titleElement.innerHTML = "❤❤❤Tăng Như Huệ❤❤❤";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
